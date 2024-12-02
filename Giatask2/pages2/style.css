@@ -1,0 +1,182 @@
+.login {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .login .div {
+    background-color: #ffffff;
+    width: 1512px;
+    height: 1102px;
+    position: relative;
+  }
+  
+  .login .overlap {
+    position: absolute;
+    width: 652px;
+    height: 81px;
+    top: 463px;
+    left: 112px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #6a6a6a80;
+  }
+  
+  .login .group {
+    position: relative;
+    width: 414px;
+    height: 36px;
+    top: 18px;
+    left: 86px;
+  }
+  
+  .login .text-wrapper {
+    position: absolute;
+    width: 412px;
+    top: 0;
+    left: 0;
+    font-family: "Poppins-SemiBold", Helvetica;
+    font-weight: 600;
+    color: #00000066;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login .overlap-group {
+    position: absolute;
+    width: 652px;
+    height: 81px;
+    top: 575px;
+    left: 112px;
+    border-radius: 10px;
+    border: 2px solid;
+    border-color: #00000066;
+  }
+  
+  .login .group-2 {
+    position: relative;
+    width: 462px;
+    height: 40px;
+    top: 18px;
+    left: 36px;
+  }
+  
+  .login .div-wrapper {
+    position: absolute;
+    width: 414px;
+    height: 36px;
+    top: 2px;
+    left: 50px;
+  }
+  
+  .login .vector {
+    position: absolute;
+    width: 32px;
+    height: 40px;
+    top: 0;
+    left: 0;
+  }
+  
+  .login .belum-punya-akun {
+    position: absolute;
+    width: 388px;
+    top: 825px;
+    left: 379px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #6a6a6a;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login .span {
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #6a6a6a;
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+  
+  .login .text-wrapper-2 {
+    text-decoration: underline;
+  }
+  
+  .login .overlap-group-2 {
+    position: absolute;
+    width: 650px;
+    height: 94px;
+    top: 712px;
+    left: 114px;
+    background-color: #3f8cde;
+    border-radius: 10px;
+  }
+  
+  .login .text-wrapper-3 {
+    width: 166px;
+    top: 12px;
+    left: 251px;
+    color: #ffffff;
+    font-size: 45px;
+    position: absolute;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login .overlap-2 {
+    position: absolute;
+    width: 447px;
+    height: 288px;
+    top: 121px;
+    left: 73px;
+  }
+  
+  .login .text-wrapper-4 {
+    position: absolute;
+    width: 334px;
+    top: 236px;
+    left: 41px;
+    font-family: "Poppins-Regular", Helvetica;
+    font-weight: 400;
+    color: #5e5e5e;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login .text-wrapper-5 {
+    width: 408px;
+    top: 143px;
+    left: 39px;
+    color: #000000;
+    font-size: 64px;
+    position: absolute;
+    font-family: "Poppins-Bold", Helvetica;
+    font-weight: 700;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .login .screenshot {
+    position: absolute;
+    width: 288px;
+    height: 144px;
+    top: 0;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .login .group-3 {
+    position: absolute;
+    width: 630px;
+    height: 1102px;
+    top: 0;
+    left: 882px;
+    background-color: #3f8cde;
+  }
+  
