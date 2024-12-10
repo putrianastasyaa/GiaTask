@@ -1,0 +1,112 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f5f7;
+    padding: 20px;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+/* Profil Header */
+.profile-header h1 {
+    font-size: 32px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+/* Profil Card */
+.profile-card {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Details (Foto dan Tombol) */
+.profile-details {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2px;
+}
+
+.profile-photo {
+    margin-right: 20px;
+}
+
+.profile-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+    object-fit: cover;
+    border: 1px solid #007bff;
+}
+
+.profile-actions a {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #ffffff;
+    color: black;
+    text-decoration: none;
+    border-radius: 5px;
+    border-color: black;
+    margin-left: 10px;
+    transition: background-color 0.3s;
+}
+
+.profile-actions a:hover {
+    background-color: #0056b3;
+}
+
+/* Info Profil */
+.profile-info .info-item {
+    
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.profile-info h3 {
+    font-size: 16px;
+    color: #333;
+}
+
+.profile-info p {
+    font-size: 14px;
+    color: #666;
+}
+
+/* Tombol Opsi dan Simpan */
+.profile-actions-bottom {
+    display: flex;
+    justify-content: flex-end;
+    margin-left: 0px;
+    margin-top: 20px;
+}
+
+.btn-options, .btn-save {
+    display: inline-block;
+    padding: 4px 8px;
+    margin-left: 10px; /* Memberikan jarak antar elemen */      
+    background-color: #ffffff;
+    color: black;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+.btn-options:hover, .btn-save:hover {
+    background-color: #218838;
+    color: white; /* Mengubah warna teks saat hover */
+    border: 1px solid #218838; /* Menambahkan border hijau saat hover */
+    transform: scale(1.05); 
+    padding: 8px 16px;
+}

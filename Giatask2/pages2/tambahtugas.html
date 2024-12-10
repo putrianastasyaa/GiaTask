@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tambah Tugas</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="tambahtugas.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">Tambah tugas</h1>
+    <ul class="options">
+      <li>
+        <a href="#" onclick="toggleInput('waktuInput')">
+          <img src="assets/bulatbirukecil.svg" alt="Icon Waktu" class="icon">
+          Tambahkan waktu tugas
+        </a>
+        <input type="text" id="waktuInput" class="hidden" placeholder="Masukkan waktu tugas">
+      </li>
+      <li>
+        <a href="#" onclick="toggleInput('videoInput')">
+          <img src="video-icon.png" alt="Icon Video Conference" class="icon">
+          Tambahkan link video conference
+        </a>
+        <input type="text" id="videoInput" class="hidden" placeholder="Masukkan link video conference">
+      </li>
+      <li>
+        <a href="#" onclick="toggleInput('lokasiInput')">
+          <img src="location-icon.png" alt="Icon Lokasi" class="icon">
+          Tambahkan lokasi
+        </a>
+        <input type="text" id="lokasiInput" class="hidden" placeholder="Masukkan lokasi">
+      </li>
+      <li>
+        <a href="#" onclick="toggleInput('deskripsiInput')">
+          <img src="description-icon.png" alt="Icon Deskripsi" class="icon">
+          Tambahkan deskripsi
+        </a>
+        <textarea id="deskripsiInput" class="hidden" placeholder="Masukkan deskripsi"></textarea>
+      </li>
+    </ul>
+    
+    <div class="workspace">
+      <span>Workspace 1 - Group 1</span>
+      <label class="toggle-switch">
+        <input type="checkbox">
+        <span class="slider"></span>
+      </label>
+    </div>
+    <p class="details">Kesibukan tingkat tinggi</p>
+    <p class="details">Pengingat 10 menit sebelumnya</p>
+    <div class="actions">
+      <a href="#" class="button save">Simpan</a>
+      <a href="#" class="button options">Opsi tambahan</a>
+    </div>
+  </div>
+</body>
+</html>
